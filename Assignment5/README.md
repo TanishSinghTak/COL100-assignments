@@ -7,7 +7,7 @@ This is one of the assignment of my course COL100. In this I have made code for 
 ## Play with Grid
 This is a board game in which players are given a *MxN* grid *G* with non-negative penalty values at each point *G(i; j)*.</br>
 player begin at the upper left corner (0; 0) and must reach at the opposite corner *(M - 1;N - 1)* to complete this game.</br>
-At each step, a player can go one step in the direction of the target, either vertically, horizontally, or diagonally (i.e., from cell *i,j*), we can only go to cells (*i+1; j*), (*i, j +1*), or (*i+1; j +1*).
+At each step, a player can go one step in the direction of the target, either vertically, horizontally, or diagonally (i.e., from cell *i,j*), we can only go to cells (*i+1; j*), (*i, j+1*), or (*i+1; j+1*).
 Every time we step into a cell, we shall incur the penalty of that cell.</br>
 As a result, we can use this code to determine a route with the least total penalty. (The total penalty is the sum of all fines).
 
@@ -28,6 +28,7 @@ The calendar prints all 12 months and days of the week on a single page in a n
 It correctly computes the day for January 1<sup>st</sup>.
 It's assumed that the function's input is more than 1753 due to the fact that the calendar changed from the Julian calendar to the Gregorian calendar in 1752.
 
-The Output for our function will be as follows: 
-
-![a](Assignment5/Calendar-2022.png)
+The Output of our function for year 2022 will be:
+<p align="center">
+  <img src="Calendar-2022.PNG" >
+</p>
